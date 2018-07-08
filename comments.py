@@ -78,32 +78,47 @@ def get_comment_threads(youtube, video_id):
 
   for item in results["items"]:
     comment = item["snippet"]["topLevelComment"]
+    reply_count = item["snippet"]["totalReplyCount"]
+    like_count = comment["snippet"]["likeCount"]
     author = comment["snippet"]["authorDisplayName"]
     text = comment["snippet"]["textDisplay"]
-    print("Comment by {}: {}".format(author, text))
+    print("Reply Count: {}	Like Count: {}	Comment by {}: {}".format(reply_count,like_count,author, text))
 
   return results["items"]
 
 
 # Call the API's comments.list method to list the existing comment replies.
-def get_comments(youtube, parent_id):
-  results = youtube.comments().list(
-    part="snippet",
-    parentId=parent_id,
-    textFormat="plainText"
-  ).execute()
+def get_comments(youtube, video_comment_threads): 
+  for comment in video_comment_threads:   
+     results = youtube.comments().list(
+       part="snippet",
+       parentId=comment["id"],
+       textFormat="plainText"
+     ).execute()
 
-  for item in results["items"]:
-    author = item["snippet"]["authorDisplayName"]
-    text = item["snippet"]["textDisplay"]
-    print("Comment by {}: {}".format(author, text))
+     for item in results["items"]:
+       author = item["snippet"]["authorDisplayName"]
+       text = item["snippet"]["textDisplay"]
+       like_count = item["snippet"]["likeCount"]
+       print("Like Count: {}	Comment by {}: {}".format(like_count,author, text))
+
 
   return results["items"]
 
+def search_channel(youtube, channel_id):
+	results = youtube.search().list(
+		part="snippet",
+		channelId=channel_id,
+		maxResults=5,
+		order="date"
+	).execute()
+
+	for item in results["items"]:
+		print("Title: {}".format(item["snippet"]["title"]))
 
 
 
-
+# User, Comment, replyCount, likeCount, Is_this_toplevel_comment?, 
 
 
 
@@ -124,11 +139,11 @@ if __name__ == "__main__":
   youtube = get_authenticated_service(args)
   # All the available methods are used in sequence just for the sake of an example.
   try:
-    video_comment_threads = get_comment_threads(youtube, args.videoid)
-    parent_id = video_comment_threads[0]["id"]
-    video_comments = get_comments(youtube, parent_id)
+  	search_channel(youtube, args.videoid) 
+    #video_comment_threads = get_comment_threads(youtube, args.videoid)
+    #video_comments = get_comments(youtube, video_comment_threads)
 
   except HttpError:
-    print("An HTTP error %d occurred:\n%s".format(e.resp.status, e.content))
+    print("An HTTP error {} occurred:{}".format(e.resp.status, e.content))
   else:
     print("Inserted, listed, updated, moderated, marked and deleted comments.")
