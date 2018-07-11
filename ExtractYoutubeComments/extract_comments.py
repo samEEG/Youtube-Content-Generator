@@ -78,7 +78,7 @@ def get_comment_threads(youtube, youtube_videos):
     part="snippet",
     videoId=youtube_videos[1],  #second index stores the video id
     textFormat="plainText",
-    maxResults=2
+    maxResults=100
   ).execute()
 
   dataset = []
@@ -128,7 +128,7 @@ def search_channel(youtube, channel_id):
   results = youtube.search().list(
 		part="snippet",
 		channelId=channel_id,
-		maxResults=5,
+		maxResults=1,
 		order="date"
 	).execute()
   video_names_and_id = [] 

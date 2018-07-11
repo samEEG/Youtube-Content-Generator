@@ -1,6 +1,7 @@
 from ExtractYoutubeComments import extract_comments
 import numpy as np
 
+
 print("This script generates a dataset of comments from a specific youtube channel")
 print("Dataset divided respectively as: Video title, Comment, Likecount")
 if __name__ == "__main__":
@@ -13,7 +14,7 @@ if __name__ == "__main__":
   #search through channels uplouded videos
   #[video title, video id]
   list_of_youtube_videos = extract_comments.search_channel(youtube, channel_Id)
-  dataset = []
+  dataset = [["Video_name", "Comment", "Like_Count"]]
 
   for item in list_of_youtube_videos:  
     #print(item)
@@ -25,8 +26,8 @@ if __name__ == "__main__":
 
 
 # Save to file
-  dataset = np.asarray(dataset)
-  np.savetxt("foo.tsv", dataset, delimiter="\t", fmt='%s')
+  dataset = np.array(dataset)
+  np.savetxt("foo.tsv", dataset, delimiter="\t", fmt='%s',encoding="utf-8")
  
 # Read from file
   
