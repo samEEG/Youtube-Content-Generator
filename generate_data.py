@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
   for item in list_of_youtube_videos:  
     #print(item)
-    video_comment_threads, data_of_comment_threads = extract_comments.get_comment_threads(youtube, item)
+    video_comment_threads, data_of_comment_threads = extract_comments.get_comment_threads(youtube, item, channel_Id)
    
     #get comments of comments 
     data_comment_of_comment = extract_comments.get_comments(youtube, video_comment_threads, item[0])
