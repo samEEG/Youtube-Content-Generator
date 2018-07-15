@@ -15,9 +15,10 @@ if __name__ == "__main__":
   #[video title, video id]
   list_of_youtube_videos = extract_comments.search_channel(youtube, channel_Id)
   dataset = [["Video_name", "Comment", "Like_Count"]]
-
+  
+  #for item in list_of_youtube_videos: 
   for item in list_of_youtube_videos:  
-    #print(item)
+    print(item)
     video_comment_threads, data_of_comment_threads = extract_comments.get_comment_threads(youtube, item, channel_Id)
    
     #get comments of comments 
@@ -27,7 +28,7 @@ if __name__ == "__main__":
 
 # Save to file
   dataset = np.array(dataset)
-  np.savetxt("foo.tsv", dataset, delimiter="\t", fmt='%s',encoding="utf-8")
+  np.savetxt("foo2.tsv", dataset, delimiter="\t", fmt='%s',encoding="utf-8")
  
 # Read from file
   

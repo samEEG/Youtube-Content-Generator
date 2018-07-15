@@ -1,0 +1,63 @@
+Video_name	Comment	Like_Count
+Video Streaming Problems - Computerphile	I thought this was going to be an explanation about the green grass pixelation you see in video games being streamed on twitch all the time.	0
+Video Streaming Problems - Computerphile	Why does this video chugg on my gigabit connection?	0
+Video Streaming Problems - Computerphile	Don't worry everyone the film reel only contains baby pictures of horrible despots and terrorists.	0
+Video Streaming Problems - Computerphile	HA HA! Video streaming issues right now, wish I could watch this.  Why don't companies hire managers who know what they are doing? First rule, don't beta test on customers, if something works well don't break it, your changes probably aren't as clever as you believe.	0
+Video Streaming Problems - Computerphile	There really needs to be an internet streaming protocol that routers can also make smart use of. Let's say a neighbourhood is watching the same stream, why send the package n * number of devices streaming?	0
+Video Streaming Problems - Computerphile	During this World Cup it happened a lot. Aerial SD was first, then aerial HD, then cable and last HD satellite. The delay could be from one second to five, so your low budget neighbor would spoil all the goals to the entire neighborhood.	1
+Video Streaming Problems - Computerphile	I'd love to know how sites like YouTube keep up with the MASSIVE demand for storage space. Surely they'd just be adding multiple HDDs each second with the insane amount of data, right? How is this sustainable at all? I've always wondered how these sites keep up with the demand, especially when they have no automatic timed deletion.	0
+Video Streaming Problems - Computerphile	Hey Computerphile, great video!  Could you do a follow up on streaming via platforms such as Twitch?  They allow individuals to stream from their home computer with a delay to the viewer of only a couple seconds.  It would be interesting to hear discussion on why there's so little delay on a user-generated platform vs big broadcasters.  I would assume its partially because the user isn't starting with a broadcast camera outputting 1Gbit/sec of data.	0
+Video Streaming Problems - Computerphile	5:33 "brop from PETA to Paypal"?  i honestly don't understand what you're saying there...	0
+Video Streaming Problems - Computerphile	Great. Now we know why Youtube is always buffering.	0
+Video Streaming Problems - Computerphile	The last of the targyrians.	1
+Video Streaming Problems - Computerphile	Seems that home routers ought to become a termination point for the multi cast, and they should pass or deny it depending if a client on their network is requesting it - I know this is against the ethos of multi cast, but otherwise everybody's wifi networks will be blasting out 1000+ streaming channels constantly.  An different solution would be to have routers with Digital TV tuners built in, that when you go to a streaming website, the script on the page says what channel, and the router just magically inserts the video stream onto the web page.	0
+Video Streaming Problems - Computerphile	In 4:20 about waiting for all 12 frames, can't server just send "changes" of frames? No 0.5s delay then. Or receiving pcs can't "dynamically" decompress?	0
+Video Streaming Problems - Computerphile	2 macs . No respect from me	0
+Video Streaming Problems - Computerphile	There is only single stream that needs live broadcasting: sports matches. Because your neighbour will yell GOAL before you will see goal on the screen - and this is big deal for sport fans. For everything else latency does not matter. That being said it is still interesting problem to solve.	4
+Video Streaming Problems - Computerphile	FYI @Wimbledon for your example, the pictures (once recieved in the Broadcast trucks/media centre) are converted to an IP format (ST2110) before getting to the vision mixers.  The whole video plant at Wimbledon is using 2110 so 1080i video (all except Centre Court which is 4k) is at about 1.1Gbps as 2110 leaves just the video and other meets days is carried in a separate flow	0
+Video Streaming Problems - Computerphile	I often watch baseball games on TV, but listen to them on the radio, because the TV broadcast is being done by, say, some network that uses its own team of play-by-play announcers, but I want to hear the people who "belong" to my team.  Because of network TV contracts, the team's people can't be on the TV broadcast, so they broadcast locally on the radio.  And going back as far as I can remember -- even during the days of analog TV -- the radio was *always* a bit ahead of the TV broadcast.  So there must've been some kind of processing going on for the TV to make it not *quite* instantaneous?  It wasn't a *big* difference -- maybe 500 milliseconds or so.  But enough that you'd hear the crack of the bat just before seeing it on the TV.  In today's digital world, the difference is *far* worse -- the radio can be 5 or even 10 seconds ahead of the TV broadcast.  It gets very annoying sometimes.	0
+Video Streaming Problems - Computerphile	Please don't film this guy using window as a background	0
+Video Streaming Problems - Computerphile	in ffmpeg -i ipcamera --hls_time 3 -hls_list_size 300 ipcam.m3u8 your ipcam in a stream...	0
+Video Streaming Problems - Computerphile	I'd love to know what goes on behind the scenes on the UK Parliament website which while providing live video, also builds an index/archive as it goes that seems as inviolable as Hansard. It seems unparralled compared with any other live streaming I've seen.	1
+Video Streaming Problems - Computerphile	Multicast doesn’t allow rewind, you’d need a separate stream for that.. But presumably DASH is better for that so long as your ISP has buffered the http file locally?	0
+Video Streaming Problems - Computerphile	People still watch TV?	0
+Video Streaming Problems - Computerphile	Twitch can get below 2 seconds delay between the streamer and the viewer. I guess they have really small blocks and no buffering?	0
+Video Streaming Problems - Computerphile	The buffer did it.	0
+Video Streaming Problems - Computerphile	Live broadcast is a serious topic on its own, that seems to be obsolete if not hardly ever holdable and not much notecable any more. Deligthful video about a for me personelly completely underestimated topic.	0
+Video Streaming Problems - Computerphile	The delay still seems pretty excessive though	2
+Video Streaming Problems - Computerphile	I was wondering about this a few weeks ago when I watched the World Cup on my TV and computer simultaneously and saw the almost 2 minute delay. I had previously noticed that there was a delay, but never 2 min! Thanks for the video.	0
+Video Streaming Problems - Computerphile	Seems to me like all this technological 'progress' has brought us systems that are outrageously more complex, more fragile, and more quirky - basically the complete opposite features of what is thought of as a high quality machine.	0
+Video Streaming Problems - Computerphile	Correct me if I'm wrong, but IPTV in Germany already uses multicast since a couple of years.	0
+Video Streaming Problems - Computerphile	Which university is that?	0
+Video Streaming Problems - Computerphile	So "live" means seeing something on a screen at the same time as if you had line of sight to the event.	0
+Video Streaming Problems - Computerphile	With the microphones on the field, at broadcast speeds people at home could hear the action before people actually at the game? That's mind bendy right there.	0
+Video Streaming Problems - Computerphile	Lol at rolex logo. The name that just sounds expensive.	0
+Video Streaming Problems - Computerphile	But how does the client know when to demand the better quality again? Less resolution is understandable.	0
+Video Streaming Problems - Computerphile	I now know so many things that I never knew I wanted to know.	3
+Video Streaming Problems - Computerphile	I have to say the explanation of streaming and what introduces delay was very good, but I dislike that the example with the BBC iPlayer you used indicated that every stream on the Internet has a massive delay of around 90 seconds.  That is very clearly not the case when looking at livestreams on sites like youtube, twitch or mixer. All those have a massivly lower delay on a decent internet connection unless they are set up to have more delay. Mixer even has a protocol they call FTL that allows for delay of less than a second if you have a good internet connection.  Hope I could clear things up for some people, as that was really the only part in this Video that was not great, but a bit misleading.	1
+Video Streaming Problems - Computerphile	Is multicast anything like BitTorrent streaming?	0
+Video Streaming Problems - Computerphile	Multicast is a can of worms, I doubt it'll ever be used any time soon. Just look at how IPv6 is still barely deployed.	5
+Video Streaming Problems - Computerphile	12/50 = 0.24 not 0.5	0
+Video Streaming Problems - Computerphile	Begs the question of what "live" actually means	20
+Video Streaming Problems - Computerphile	Wait, why are they using GET requests? They have a HUGE overhead for the headers. Wouldn't it be massively more efficient to send data through websockets? Given that you could even have clients forward to other clients with WebRTC	4
+Video Streaming Problems - Computerphile	Does this mean Time Division Multiple Access (and/or Time Division Duplexing) is the culprit?	0
+Video Streaming Problems - Computerphile	Now wait just one second. Safari?	0
+Video Streaming Problems - Computerphile	Guess this host is only for native English speaking people. As a non-native English person, 50% of the things I hear is "mumble mumble mumble". If you want to be on the internet or ANY public display for that matter, learn to speak properly, damnit!	0
+Video Streaming Problems - Computerphile	iv got an alternative explanation for a 90 second delay; censors	10
+Video Streaming Problems - Computerphile	RIP the first 60 frames or so of Chitty Chitty Bang Bang	0
+Video Streaming Problems - Computerphile	4:09 my soul just ripped off	2
+Video Streaming Problems - Computerphile	BBC iPlayer is notoriously bad and always has been.	7
+Video Streaming Problems - Computerphile	love it	5
+Video Streaming Problems - Computerphile	Hey...im the first dislike 😊 Im very sorry computerphile	5
+Video Streaming Problems - Computerphile	Please do a video on how multicast works in more detail!	37
+Video Streaming Problems - Computerphile	So even with the latest tech.... Musicians around the world in different locations cannot play together.  Shame... I remember simotanious broadcast many years ago where BBC 2 could broadcast a music concert on Television while simotaniously broadcasting high quality stereo audio on FM BBC 3 radio.  These days we just get internet live stream HD pictures with poor audio that is highly compressed.  So much for advancements.	13
+Video Streaming Problems - Computerphile	Great video	3
+Video Streaming Problems - Computerphile	this video was amazing thank you!!!!!!!!!!!!	1
+Video Streaming Problems - Computerphile	This guy has to cut his nails!	28
+Video Streaming Problems - Computerphile	iframe is farcical.	1
+Video Streaming Problems - Computerphile	10th.. And this channel is informative	1
+Video Streaming Problems - Computerphile	I just had to explain someone, that Google is not the internet, this video just saved me from insanity !!!!	50
+Video Streaming Problems - Computerphile	45th	1
+Video Streaming Problems - Computerphile	👉👌	1
+Video Streaming Problems - Computerphile	First	1
+Video Streaming Problems - Computerphile	Not first - Samuel Miller was first.	0
